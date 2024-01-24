@@ -23,5 +23,5 @@ jobs:
         env:
           GH_TOKEN:  ${{ secrets.GITHUB_TOKEN }}
         run: |
-          gh pr review ${{ steps.pulling.outputs.pr_url }} --approve
+          # gh pr review ${{ steps.pulling.outputs.pr_url }} --approve
           gh pr merge ${{ steps.pulling.outputs.pr_url }} --merge
