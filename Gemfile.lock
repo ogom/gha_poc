@@ -3,7 +3,6 @@ GEM
   specs:
     json (2.1.0)
     rack (2.2.2)
-    rake (0.9.6)
 
 PLATFORMS
   arm64-darwin-22
@@ -11,7 +10,6 @@ PLATFORMS
 DEPENDENCIES
   json (< 2.2.0)
   rack (< 2.2.3)
-  rake (< 10.0)
 
 BUNDLED WITH
    2.2.33
