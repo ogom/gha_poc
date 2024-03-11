@@ -9,6 +9,5 @@ updates:
     directory: "/" # ルートディレクトリから Gemfile を探す
     schedule:
       interval: "daily" # 更新をチェックする頻度（例：毎日）
-      time: "00:05"
+      # time: "00:05"
     open-pull-requests-limit: 10 # 開かれる PR の最大数
-
