@@ -17,7 +17,7 @@ jobs:
           github-token: "${{ secrets.GITHUB_TOKEN }}"
       - name: Echo Dependabot metadata
         run: |
-          echo "${{ toJSON(steps.dependabot-metadata.outputs) }}"
+          echo "${{ toJSON(steps.metadata.outputs) }}"
       - name: Enable auto-merge for Dependabot PRs
         if: |
           steps.metadata.outputs.update-type == 'version-update:semver-patch' ||
