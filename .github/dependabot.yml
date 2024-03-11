@@ -12,11 +12,16 @@ updates:
       # time: "00:05"
     open-pull-requests-limit: 10 # 開かれる PR の最大数
     groups:
-      # Specify a name for the group, which will be used in pull request titles
-      # and branch names
-      dev-dependencies:
-        # Define patterns to include dependencies in the group (based on
-        # dependency name)
+      production-dependencies:
+        dependency-type: "production"
+      development-dependencies:
+        dependency-type: "development"
+        exclude-patterns:
+          - "json"
+          - "rack*"
+      json:
         patterns:
-          - "json" # A single dependency name
-          - "rack*" # A wildcard string that m
+          - "json"
+      rack:
+        patterns:
+          - "rack*"
