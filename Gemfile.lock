@@ -1,15 +1,16 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    json (2.1.0)
-    rack (2.2.2)
+    json (2.7.1)
+    rack (3.0.9.1)
 
 PLATFORMS
   arm64-darwin-22
+  x86_64-linux
 
 DEPENDENCIES
-  json (< 2.2.0)
-  rack (< 2.2.3)
+  json (< 2.8.0)
+  rack (< 3.0.10)
 
 BUNDLED WITH
    2.2.33
