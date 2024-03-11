@@ -18,10 +18,10 @@ updates:
         dependency-type: "development"
         exclude-patterns:
           - "json"
-          - "rack*"
+          - "rake*"
       json:
         patterns:
           - "json"
-      rack:
+      rake:
         patterns:
-          - "rack*"
+          - "rake*"
