@@ -12,12 +12,11 @@ updates:
       # time: "00:05"
     open-pull-requests-limit: 10 # 開かれる PR の最大数
     groups:
-      production-dependencies:
-        dependency-type: "production"
-      development-dependencies:
-        dependency-type: "development"
-        exclude-patterns:
-          - "rack*"
-      rubocop:
+      # Specify a name for the group, which will be used in pull request titles
+      # and branch names
+      dev-dependencies:
+        # Define patterns to include dependencies in the group (based on
+        # dependency name)
         patterns:
-          - "rack*"
+          - "json" # A single dependency name
+          - "rack*" # A wildcard string that m
