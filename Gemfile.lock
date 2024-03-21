@@ -2,7 +2,7 @@ GEM
   remote: https://rubygems.org/
   specs:
     json (2.7.1)
-    rack (2.2.2)
+    rack (3.0.10)
     rake (0.9.6)
 
 PLATFORMS
@@ -11,7 +11,7 @@ PLATFORMS
 
 DEPENDENCIES
   json (< 2.8.0)
-  rack (< 2.2.3)
+  rack (< 3.0.11)
   rake (< 10.0)
 
 BUNDLED WITH
